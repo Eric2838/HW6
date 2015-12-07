@@ -2,17 +2,18 @@
  * Name: Ian Prins, Jie Luo, Eric Chaput, Jiamin Luo
  * MacID: prinsij, louj3, chaputem, luoj1
  * Student Number: 001419316, 
- * Description: This file implements the class Add, representing an addition 
+ * Description: This file implements the class Subtract, representing a subtraction 
  * 				arithmatic expression
  */
  
  #include <iostream>
  #include <string>
  #include <stdio.h>
- #include "Addition.h"
+ #
+ #include "Subtraction.h"
  using namespace std;
  
- string Add::evaluate(){
+ string Subtract::evaluate(){
 	 float fleft, fright;
 	 if (this.numLeft == null){
 		 fleft = stof(*(this.left).evaluate();
@@ -23,20 +24,20 @@
 		 fright = stof(*(this.right).evaluate();
 	 } else {
 		 fright = this.numRight;
-	 return to_string(fleft + fright);
+	 return to_string(fleft - fright);
  }
-
-void Add::print(){
-	cout << '(';
+ 
+ void Subtract::print(){
+	 cout << '(';
 	if (this.numLeft == null){
 		(*left).print();
 	} else {
 		cout << numLeft
 	}
 	if (this.numRight == null){
-		cout << '+';
+		cout << '-';
 	} else {
 		(*right).print();
 	}
-	cout << ')';
-}
+	 cout << ')';
+ }

@@ -14,6 +14,8 @@
 	protected:
 		Expression *left;
 		Expression *right;
+		float numLeft;
+		float numRight;
 		bool isLeaf;
 	public:
 		virtual string evaluate();
