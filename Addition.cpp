@@ -31,7 +31,7 @@ void Add::print(){
 	if (this.numLeft == null){
 		(*left).print();
 	} else {
-		cout << numLeft
+		cout << numLeft;
 	}
 	if (this.numRight == null){
 		cout << '+';

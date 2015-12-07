@@ -39,7 +39,7 @@ ArithmeticExpression ArithmeticExpression::constructArith(string s){
 				depth = depth -1;
 			} else if (depth == 0){
 				if ("/*-+".find(s[i]) != string::npos){
-					if ("/*-+".find(s[i] > op){
+					if ("/*-+".find(s[i]) > op{
 						operationIndex = i;
 						op = "/*-+".find(s[i]);
 					}
@@ -47,6 +47,7 @@ ArithmeticExpression ArithmeticExpression::constructArith(string s){
 			}
 		}
 		if (op > -1){
-			this.
+			if (op == 3){
+				return Addition(s, 
 	}	
 }

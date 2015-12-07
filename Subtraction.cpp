@@ -9,19 +9,18 @@
  #include <iostream>
  #include <string>
  #include <stdio.h>
- #
  #include "Subtraction.h"
  using namespace std;
  
  string Subtract::evaluate(){
 	 float fleft, fright;
 	 if (this.numLeft == null){
-		 fleft = stof(*(this.left).evaluate();
+		 fleft = stof(*(this.left).evaluate());
 	 } else {
 		 fright = this.numLeft;
 	 }
 	if (this.numRight == null){
-		 fright = stof(*(this.right).evaluate();
+		 fright = stof(*(this.right).evaluate());
 	 } else {
 		 fright = this.numRight;
 	 return to_string(fleft - fright);
@@ -32,7 +31,7 @@
 	if (this.numLeft == null){
 		(*left).print();
 	} else {
-		cout << numLeft
+		cout << numLeft;
 	}
 	if (this.numRight == null){
 		cout << '-';

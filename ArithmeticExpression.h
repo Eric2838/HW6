@@ -8,6 +8,7 @@
  #include <iostream>
  #include <string>
  #include <stdio.h>
+ #include "Expression.h"
  using namespace std;
   
  class ArithmeticExpression : public Expression{

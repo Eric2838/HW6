@@ -12,5 +12,7 @@
  #include "ArithmeticExpression.h"
  
 class Subtract : public ArithmeticExpression{
-	
-}
+	public:
+		string evaluate();
+		void print();
+};

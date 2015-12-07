@@ -12,5 +12,7 @@
  #include "ArithmeticExpression.h"
  
 class Add : public ArithmeticExpression{
-	
-}
+	public:
+		string evaluate();
+		void print();
+};
